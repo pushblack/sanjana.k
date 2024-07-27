@@ -1,0 +1,10 @@
+plt.figure(figsize=(10, 6))
+
+sns.histplot(data['column_name'], kde=True)
+
+plt.title('Histogram of Column Name')
+
+plt.xlabel('Column Name')
+plt.ylabel('Frequency')
+
+plt.show()
